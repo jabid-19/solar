@@ -1,0 +1,8 @@
+{
+  "/kontakt/page": "app/kontakt/page.js",
+  "/referenser/page": "app/referenser/page.js",
+  "/om-oss/page": "app/om-oss/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/batterier/page": "app/batterier/page.js"
+}
