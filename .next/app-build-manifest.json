@@ -12,34 +12,34 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/solpaneler/page": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/solpaneler/page.css",
-      "static/chunks/app/solpaneler/page.js"
+      "static/chunks/app/contact/page.js"
     ],
-    "/batterier/page": [
+    "/solar-panels/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/batterier/page.css",
-      "static/chunks/app/batterier/page.js"
+      "static/css/app/solar-panels/page.css",
+      "static/chunks/app/solar-panels/page.js"
     ],
-    "/referenser/page": [
+    "/batteries/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/referenser/page.css",
-      "static/chunks/app/referenser/page.js"
+      "static/css/app/batteries/page.css",
+      "static/chunks/app/batteries/page.js"
     ],
-    "/om-oss/page": [
+    "/references/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/om-oss/page.css",
-      "static/chunks/app/om-oss/page.js"
+      "static/css/app/references/page.css",
+      "static/chunks/app/references/page.js"
     ],
-    "/kontakt/page": [
+    "/about-us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/kontakt/page.js"
+      "static/css/app/about-us/page.css",
+      "static/chunks/app/about-us/page.js"
     ]
   }
 }

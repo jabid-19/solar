@@ -157,7 +157,7 @@ export const Navbar = () => {
                       Contact
                     </p>
                   </Link>
-                  <Link href="/privacy-policy">
+                  {/* <Link href="/privacy-policy">
                     <p
                       className={`${
                         pathname === "/privacy-policy"
@@ -167,7 +167,7 @@ export const Navbar = () => {
                     >
                       Privacy Policy
                     </p>
-                  </Link>
+                  </Link> */}
                 </div>
               )}
             </li>
@@ -250,7 +250,7 @@ export const Navbar = () => {
                 </p>
               </Link>
             </li>
-            <li className="ml-4">
+            {/* <li className="ml-4">
               <Link href="/privacy-policy">
                 <p
                   className={`${
@@ -262,7 +262,7 @@ export const Navbar = () => {
                   Privacy Policy
                 </p>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Button className="bg-yellow-500 text-white hover:bg-yellow-600 rounded-full">
                 Contact

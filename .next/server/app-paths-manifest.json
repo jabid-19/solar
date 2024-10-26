@@ -1,8 +1,9 @@
 {
-  "/kontakt/page": "app/kontakt/page.js",
-  "/referenser/page": "app/referenser/page.js",
-  "/om-oss/page": "app/om-oss/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/batterier/page": "app/batterier/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/batteries/page": "app/batteries/page.js",
+  "/references/page": "app/references/page.js",
+  "/solar-panels/page": "app/solar-panels/page.js",
+  "/about-us/page": "app/about-us/page.js"
 }

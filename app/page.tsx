@@ -42,7 +42,7 @@ export default function SolarSystems() {
                 solutions can transform your energy consumption and reduce your
                 carbon footprint.
               </p>
-              <Link href="/kontakt">
+              <Link href="/contact">
                 <Button
                   className="bg-primary text-white hover:bg-yellow-600 rounded-full w-full sm:w-auto"
                   data-aos="zoom-in"
