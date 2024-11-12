@@ -28,22 +28,22 @@ export default function SolarPanelsLanding() {
               data-aos="zoom-out"
               data-aos-duration="1500"
             >
-              Rooftop Solar Panels
+              Solpaneler för tak
             </h2>
             <p
               className="text-xl mb-8 opacity-90 max-w-3xl mx-auto"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Harness the Power of the Sun with Our Solar Solutions – Your
-              Partner for Sustainable Energy
+              Utnyttja solens kraft med våra sollösningar – Din partner för
+              hållbar energi
             </p>
             <Button
               className="bg-yellow-500 text-white hover:bg-yellow-600 rounded-full transform transition-transform hover:scale-105"
               data-aos="zoom-in"
               data-aos-delay="400"
             >
-              Contact Us
+              Kontakta oss
             </Button>
           </div>
         </section>
@@ -54,7 +54,7 @@ export default function SolarPanelsLanding() {
               className="text-3xl font-bold mb-8 text-center text-gray-800"
               data-aos="fade-down"
             >
-              About Our Company
+              Om vårt företag
             </h3>
             <p
               className="text-lg text-gray-600 mb-8 max-w-4xl mx-auto text-center"
@@ -62,12 +62,12 @@ export default function SolarPanelsLanding() {
               data-aos-delay="200"
               data-aos-duration="1200"
             >
-              Welcome to our solar energy solutions company, your partner in
-              transforming solar energy into a profitable and sustainable
-              investment for your business. Within our comprehensive B2B
-              segment, we offer customized roof-mounted solar panel solutions
-              for commercial properties. We strive to make the transition to
-              solar energy smooth and profitable for businesses.
+              Välkommen till vårt solenergiföretag, din partner i att omvandla
+              solenergi till en lönsam och hållbar investering för ditt företag.
+              Inom vårt omfattande B2B-segment erbjuder vi skräddarsydda
+              takmonterade solpanelslösningar för kommersiella fastigheter. Vi
+              strävar efter att göra övergången till solenergi smidig och lönsam
+              för företag.
             </p>
           </div>
         </section>
@@ -78,36 +78,36 @@ export default function SolarPanelsLanding() {
               className="text-3xl font-bold mb-8 text-center text-gray-800"
               data-aos="zoom-in"
             >
-              Our Comprehensive Solution
+              Vår omfattande lösning
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 {
-                  title: "Free Property Analysis",
+                  title: "Gratis fastighetsanalys",
                   icon: <Sun className="h-8 w-8 text-yellow-500" />,
                   description:
-                    "Our experienced team of project planners conducts a thorough and free analysis of your roof. We identify the optimal placements to maximize solar energy extraction.",
+                    "Vårt erfarna team av projektplanerare genomför en grundlig och kostnadsfri analys av ditt tak. Vi identifierar de optimala placeringarna för att maximera solenergiutvinningen.",
                   animation: "flip-left",
                 },
                 {
-                  title: "Free Case Study",
+                  title: "Gratis fallstudie",
                   icon: <BarChart className="h-8 w-8 text-yellow-500" />,
                   description:
-                    "We offer a completely free case study that includes all financial parameters to assess the profitability of the investment. We provide detailed information on expected electricity production and returns.",
+                    "Vi erbjuder en helt kostnadsfri fallstudie som inkluderar alla ekonomiska parametrar för att bedöma investeringens lönsamhet. Vi ger detaljerad information om förväntad elproduktion och avkastning.",
                   animation: "flip-up",
                 },
                 {
-                  title: "High-Quality Project Management",
+                  title: "Högkvalitativ projektledning",
                   icon: <Users className="h-8 w-8 text-yellow-500" />,
                   description:
-                    "From the first meeting to the final inspection, we take care of the entire project chain. Our dedicated project management ensures efficiency and high quality through every step of the installation.",
+                    "Från första mötet till slutbesiktningen tar vi hand om hela projektkedjan. Vår dedikerade projektledning säkerställer effektivitet och hög kvalitet genom varje steg i installationen.",
                   animation: "flip-down",
                 },
                 {
-                  title: "Internal Structural Analysis",
+                  title: "Intern strukturanalys",
                   icon: <Zap className="h-8 w-8 text-yellow-500" />,
                   description:
-                    "Our internal engineers analyze the property's drawings and conduct thorough site visits to ensure that the roof's strength is sufficient for mounting solar panels.",
+                    "Våra interna ingenjörer analyserar fastighetens ritningar och genomför grundliga platsbesök för att säkerställa att takets hållfasthet är tillräcklig för montering av solpaneler.",
                   animation: "flip-right",
                 },
               ].map((item, index) => (
@@ -140,27 +140,27 @@ export default function SolarPanelsLanding() {
               className="text-3xl font-bold mb-8 text-center text-gray-800"
               data-aos="zoom-in"
             >
-              Why Choose Our Solar Solutions
+              Varför välja våra sollösningar
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "Sustainability Focus",
+                  title: "Hållbarhetsfokus",
                   icon: <Leaf className="h-8 w-8 text-yellow-600" />,
                   description:
-                    "We strive to make sustainable energy accessible and profitable for businesses. By choosing our solutions, you're choosing a sustainable future for your operations.",
+                    "Vi strävar efter att göra hållbar energi tillgänglig och lönsam för företag. Genom att välja våra lösningar väljer du en hållbar framtid för din verksamhet.",
                 },
                 {
-                  title: "Technological Innovation",
+                  title: "Teknisk innovation",
                   icon: <Cpu className="h-8 w-8 text-yellow-600" />,
                   description:
-                    "We embrace and integrate the latest technological innovations to ensure your business has access to cutting-edge solar energy technology.",
+                    "Vi omfattar och integrerar de senaste tekniska innovationerna för att säkerställa att ditt företag har tillgång till toppmodern solenergi.",
                 },
                 {
-                  title: "Customized Solutions",
+                  title: "Skräddarsydda lösningar",
                   icon: <Settings className="h-8 w-8 text-yellow-600" />,
                   description:
-                    "Our solar panel solutions are tailored to meet your specific needs and goals.",
+                    "Våra solpanelslösningar är anpassade för att möta dina specifika behov och mål.",
                 },
               ].map((item, index) => (
                 <Card
@@ -196,7 +196,7 @@ export default function SolarPanelsLanding() {
               >
                 <Image
                   src="/images/solar-panel.jpg"
-                  alt="Solar panels on roof"
+                  alt="Solpaneler på tak"
                   width={600}
                   height={400}
                   className="rounded-lg shadow-lg transform transition-transform hover:scale-105 duration-300"
@@ -208,22 +208,22 @@ export default function SolarPanelsLanding() {
                 data-aos-delay="400"
               >
                 <h3 className="text-3xl font-bold mb-4">
-                  Technological Advancements and Global Growth
+                  Tekniska framsteg och global tillväxt
                 </h3>
                 <p className="opacity-90 mb-4">
-                  The technology behind solar energy has made significant
-                  advancements in recent years, leading to increased efficiency
-                  and accessibility. Modern solar panels have been developed
-                  with higher efficiencies and decreasing production costs,
-                  making them more attractive and economically advantageous for
-                  businesses worldwide.
+                  Tekniken bakom solenergi har gjort betydande framsteg under de
+                  senaste åren, vilket har lett till ökad effektivitet och
+                  tillgänglighet. Moderna solpaneler har utvecklats med högre
+                  effektivitet och minskade produktionskostnader, vilket gör dem
+                  mer attraktiva och ekonomiskt fördelaktiga för företag världen
+                  över.
                 </p>
                 <ul className="list-disc list-inside opacity-90 mb-4">
                   {[
-                    "Higher efficiency and performance",
-                    "Decreasing production costs",
-                    "Improved durability and lifespan",
-                    "Smart monitoring and optimization",
+                    "Högre effektivitet och prestanda",
+                    "Minskade produktionskostnader",
+                    "Förbättrad hållbarhet och livslängd",
+                    "Smart övervakning och optimering",
                   ].map((item, index) => (
                     <li
                       key={index}
@@ -239,7 +239,7 @@ export default function SolarPanelsLanding() {
                   data-aos="zoom-in"
                   data-aos-delay="1000"
                 >
-                  Learn More About the Technology
+                  Lär dig mer om tekniken
                 </Button>
               </div>
             </div>
@@ -252,22 +252,22 @@ export default function SolarPanelsLanding() {
               className="text-3xl font-bold mb-4 text-gray-800"
               data-aos="zoom-in"
             >
-              Make the Sun Your Most Profitable Business Partner
+              Gör solen till din mest lönsamma affärspartner
             </h3>
             <p
               className="text-xl mb-8 text-gray-600 max-w-3xl mx-auto"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Contact us today to begin the journey towards a greener and more
-              economically sustainable future for your business.
+              Kontakta oss idag för att påbörja resan mot en grönare och mer
+              ekonomiskt hållbar framtid för ditt företag.
             </p>
             <Button
               className="bg-yellow-500 text-white hover:bg-yellow-600 text-lg px-8 py-3 rounded-full transform transition-transform hover:scale-110"
               data-aos="zoom-in"
               data-aos-delay="400"
             >
-              Contact Us Now
+              Kontakta oss nu
             </Button>
           </div>
         </section>

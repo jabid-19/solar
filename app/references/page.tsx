@@ -22,7 +22,7 @@ import {
   MapPin,
 } from "lucide-react";
 
-// TypeScript interfaces
+// TypeScript interfaces remain the same
 interface InstallationDetails {
   power: string;
   completion: string;
@@ -61,73 +61,72 @@ export default function ReferencesPage() {
   const installations: Installations = {
     roof: [
       {
-        name: "City Office Park",
-        description: "Roof-based solar panel system for office building",
+        name: "Stadskontoret",
+        description: "Takbaserat solpanelsystem för kontorsbyggnad",
         details: {
           power: "250 kW",
           completion: "2024",
-          location: "New York",
+          location: "Stockholm",
           savings: "30%",
         },
-        tags: ["Solar Panels", "Battery Storage", "Commercial"],
+        tags: ["Solpaneler", "Batterilagring", "Kommersiell"],
       },
       {
-        name: "West Industrial Complex",
-        description: "Solar panels on industrial roof with battery storage",
+        name: "Västra Industrikomplexet",
+        description: "Solpaneler på industritak med batterilagring",
         details: {
           power: "500 kW",
           completion: "2023",
-          location: "Chicago",
+          location: "Göteborg",
           savings: "40%",
         },
-        tags: ["Industrial", "Hybrid System", "Large Scale"],
+        tags: ["Industriell", "Hybridsystem", "Storskalig"],
       },
       {
-        name: "Central Mall",
-        description: "Integrated solar solution for shopping center",
+        name: "Centrumgallerian",
+        description: "Integrerad sollösning för köpcentrum",
         details: {
           power: "300 kW",
           completion: "2024",
-          location: "Los Angeles",
+          location: "Malmö",
           savings: "35%",
         },
-        tags: ["Retail", "Smart Control", "Integrated"],
+        tags: ["Handel", "Smart Styrning", "Integrerad"],
       },
       {
-        name: "North Logistics Hub",
-        description:
-          "High-efficiency solar panel installation for logistics center",
+        name: "Norra Logistikcentret",
+        description: "Högeffektiv solpanelsinstallation för logistikcenter",
         details: {
           power: "750 kW",
           completion: "2023",
-          location: "Seattle",
+          location: "Uppsala",
           savings: "45%",
         },
-        tags: ["Logistics", "Maximum Efficiency", "Automation"],
+        tags: ["Logistik", "Maximal Effektivitet", "Automation"],
       },
     ],
     ground: [
       {
-        name: "South Solar Park",
-        description: "Large-scale ground-based solar park",
+        name: "Södra Solparken",
+        description: "Storskalig markbaserad solpark",
         details: {
           power: "2 MW",
           completion: "2024",
-          location: "Arizona",
+          location: "Skåne",
           savings: "60%",
         },
-        tags: ["Utility Scale", "Smart Grid", "Renewable"],
+        tags: ["Storskalig", "Smart Elnät", "Förnybar"],
       },
       {
-        name: "East Agricultural Solar",
-        description: "Combined solar and battery park for agriculture",
+        name: "Östra Lantbrukssolaren",
+        description: "Kombinerad sol- och batteripark för lantbruk",
         details: {
           power: "1.5 MW",
           completion: "2023",
-          location: "Iowa",
+          location: "Östergötland",
           savings: "50%",
         },
-        tags: ["Agri-Solar", "Hybrid", "Self-Sufficient"],
+        tags: ["Agri-sol", "Hybrid", "Självförsörjande"],
       },
     ],
   };
@@ -155,7 +154,6 @@ export default function ReferencesPage() {
 
   return (
     <div className="min-h-screen pb-20">
-      {/* Hero Section */}
       <div className="text-yellow-800 bg-gradient-to-b from-amber-500 to-white py-20">
         <div className="container mx-auto px-4">
           <h1
@@ -163,40 +161,39 @@ export default function ReferencesPage() {
             data-aos="zoom-out"
             data-aos-duration="1500"
           >
-            Our Successful Projects
+            Våra Framgångsrika Projekt
           </h1>
           <p
             className="text-xl mb-12 text-center max-w-3xl mx-auto opacity-90"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Discover how we&apos;re transforming the energy landscape through
-            innovative solar energy and battery solutions
+            Upptäck hur vi förändrar energilandskapet genom innovativa
+            solenergi- och batterilösningar
           </p>
 
-          {/* Stats Overview */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 max-w-4xl mx-auto mt-12">
             <StatsCard
-              label="Total Installed Capacity"
+              label="Total Installerad Kapacitet"
               value="5+ MW"
               icon={Zap}
               delay={0}
             />
             <StatsCard
-              label="Completed Projects"
+              label="Genomförda Projekt"
               value="50+"
               icon={Building2}
               delay={100}
             />
             <StatsCard
-              label="Battery Solutions"
+              label="Batterilösningar"
               value="20+"
               icon={Battery}
               delay={200}
             />
             <StatsCard
-              label="CO₂ Savings/Year"
-              value="2000+ tons"
+              label="CO₂ Besparing/År"
+              value="2000+ ton"
               icon={BarChart}
               delay={300}
             />
@@ -215,14 +212,14 @@ export default function ReferencesPage() {
               className="data-[state=active]:bg-yellow-500 data-[state=active]:text-white"
             >
               <Building2 className="mr-2 h-4 w-4" />
-              Roof Installations
+              Takinstallationer
             </TabsTrigger>
             <TabsTrigger
               value="ground"
               className="data-[state=active]:bg-yellow-500 data-[state=active]:text-white"
             >
               <Sun className="mr-2 h-4 w-4" />
-              Ground Installations
+              Markinstallationer
             </TabsTrigger>
           </TabsList>
 
@@ -276,7 +273,7 @@ export default function ReferencesPage() {
                         <div className="flex items-center gap-2">
                           <BarChart className="h-4 w-4 text-yellow-500" />
                           <span className="text-sm">
-                            {installation.details.savings} savings
+                            {installation.details.savings} besparing
                           </span>
                         </div>
                       </div>
@@ -296,8 +293,8 @@ export default function ReferencesPage() {
                 data-aos="fade-up"
               >
                 {type === "roof"
-                  ? "Our roof installations have helped businesses reduce their energy costs by up to 40% and secure their energy supply for the future."
-                  : "Our ground installations deliver large-scale renewable energy that drives the green transition forward."}
+                  ? "Våra takinstallationer har hjälpt företag att minska sina energikostnader med upp till 40% och säkra sin energiförsörjning för framtiden."
+                  : "Våra markinstallationer levererar storskalig förnybar energi som driver den gröna omställningen framåt."}
               </p>
             </TabsContent>
           ))}

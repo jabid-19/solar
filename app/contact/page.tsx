@@ -22,7 +22,6 @@ const ContactForm = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log(formData);
   };
 
@@ -31,7 +30,7 @@ const ContactForm = () => {
       <Input
         type="text"
         name="name"
-        placeholder="Your Name"
+        placeholder="Ditt Namn"
         value={formData.name}
         onChange={handleChange}
         required
@@ -40,7 +39,7 @@ const ContactForm = () => {
       <Input
         type="email"
         name="email"
-        placeholder="Your Email"
+        placeholder="Din E-postadress"
         value={formData.email}
         onChange={handleChange}
         required
@@ -49,7 +48,7 @@ const ContactForm = () => {
       <Input
         type="text"
         name="subject"
-        placeholder="Subject"
+        placeholder="Ämne"
         value={formData.subject}
         onChange={handleChange}
         required
@@ -59,7 +58,7 @@ const ContactForm = () => {
         type="submit"
         className="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
       >
-        Get in Touch
+        Kontakta Oss
       </Button>
     </form>
   );
@@ -71,11 +70,11 @@ const Page = () => {
       <Card className="w-full max-w-md shadow-2xl">
         <CardContent className="p-8">
           <h1 className="text-3xl font-extrabold mb-8 text-center text-gray-800">
-            Let&apos;s Connect
+            Låt Oss Hålla Kontakten
           </h1>
           <p className="text-gray-600 mb-6 text-center">
-            We&apos;re excited to hear from you! Drop us a line and let&apos;s
-            start a conversation.
+            Vi ser fram emot att höra från dig! Skicka ett meddelande så startar
+            vi en konversation.
           </p>
           <ContactForm />
         </CardContent>

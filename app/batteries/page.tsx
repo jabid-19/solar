@@ -19,7 +19,7 @@ export default function BatterySolutionsLanding() {
   }, []);
 
   return (
-    <div className="min-h-screen ">
+    <div className="min-h-screen">
       <main>
         <section className="py-20 text-center text-yellow-800 bg-gradient-to-b from-amber-500 to-white relative overflow-hidden">
           <div className="container mx-auto px-4 relative">
@@ -28,22 +28,23 @@ export default function BatterySolutionsLanding() {
               data-aos="zoom-out"
               data-aos-duration="1500"
             >
-              Optimize Your Energy Consumption and Generate Revenue
+              Optimera Din Energiförbrukning och Generera Intäkter
             </h2>
             <p
               className="text-xl mb-8 max-w-3xl mx-auto opacity-90"
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              With our advanced battery solutions, your company can streamline
-              energy consumption and actively participate in the energy market.
+              Med våra avancerade batterilösningar kan ditt företag
+              effektivisera energiförbrukningen och aktivt delta på
+              energimarknaden.
             </p>
             <Button
               className="bg-yellow-500 text-white hover:bg-yellow-600 rounded-full transform transition-transform hover:scale-105"
               data-aos="zoom-in"
               data-aos-delay="600"
             >
-              Explore our solutions
+              Utforska våra lösningar
             </Button>
           </div>
         </section>
@@ -54,7 +55,7 @@ export default function BatterySolutionsLanding() {
               className="text-3xl font-bold mb-8 text-center text-gray-800"
               data-aos="fade-down"
             >
-              Our Battery Solutions
+              Våra Batterilösningar
             </h3>
             <p
               className="text-lg text-gray-600 mb-8 max-w-4xl mx-auto text-center"
@@ -62,9 +63,9 @@ export default function BatterySolutionsLanding() {
               data-aos-delay="200"
               data-aos-duration="1200"
             >
-              We strive to offer innovative energy solutions that not only help
-              companies streamline their energy consumption but also generate
-              revenue in the energy market.
+              Vi strävar efter att erbjuda innovativa energilösningar som både
+              hjälper företag att effektivisera sin energiförbrukning och
+              generera intäkter på energimarknaden.
             </p>
           </div>
         </section>
@@ -75,36 +76,36 @@ export default function BatterySolutionsLanding() {
               className="text-3xl font-bold mb-8 text-center text-gray-800"
               data-aos="fade-down"
             >
-              Benefits of our Battery Solutions
+              Fördelar med våra Batterilösningar
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 {
-                  title: "Cost Savings",
+                  title: "Kostnadsbesparingar",
                   icon: <TrendingDown className="h-8 w-8 text-yellow-500" />,
                   description:
-                    "Store excess electricity during periods of low demand and use it when prices are higher to reduce electricity costs.",
+                    "Lagra överskottsel under perioder med låg efterfrågan och använd den när priserna är högre för att minska elkostnaderna.",
                   animation: "flip-left",
                 },
                 {
-                  title: "Frequency Balancing",
+                  title: "Frekvensbalansering",
                   icon: <Zap className="h-8 w-8 text-yellow-500" />,
                   description:
-                    "Actively participate in the frequency balancing market and generate revenue by offering regulation capacity.",
+                    "Delta aktivt på frekvensbalanseringsmarknaden och generera intäkter genom att erbjuda reglerkapacitet.",
                   animation: "flip-up",
                 },
                 {
-                  title: "Peak Demand Management",
+                  title: "Toppbelastningshantering",
                   icon: <BarChart className="h-8 w-8 text-yellow-500" />,
                   description:
-                    "Use the battery as a powerful buffer to manage internal peak demands and reduce pressure on the power grid.",
+                    "Använd batteriet som en kraftfull buffert för att hantera intern toppbelastning och minska trycket på elnätet.",
                   animation: "flip-down",
                 },
                 {
-                  title: "Flexible Solutions",
+                  title: "Flexibla Lösningar",
                   icon: <Sliders className="h-8 w-8 text-yellow-500" />,
                   description:
-                    "Tailored battery solutions adapted to your company's specific needs and goals.",
+                    "Skräddarsydda batterilösningar anpassade efter ditt företags specifika behov och mål.",
                   animation: "flip-right",
                 },
               ].map((item, index) => (
@@ -135,17 +136,12 @@ export default function BatterySolutionsLanding() {
           className="py-16 bg-gradient-to-r from-yellow-500 to-amber-600 relative overflow-hidden"
           id="how-it-works"
         >
-          <div
-            className="absolute inset-0 opacity-10"
-            data-aos="fade"
-            data-aos-duration="1500"
-          />
           <div className="container mx-auto px-4 relative">
             <h3
               className="text-3xl font-bold mb-8 text-center text-white"
               data-aos="zoom-in-up"
             >
-              How It Works
+              Hur det Fungerar
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div
@@ -154,12 +150,12 @@ export default function BatterySolutionsLanding() {
                 data-aos-delay="200"
               >
                 <h4 className="text-2xl font-semibold mb-4">
-                  Frequency Balancing Market
+                  Frekvensbalanseringsmarknaden
                 </h4>
                 <p className="opacity-90 mb-4">
-                  Frequency balancing is crucial for maintaining stability in
-                  the electrical system. It involves rapid and precise actions
-                  to match electricity production and consumption.
+                  Frekvensbalansering är avgörande för att upprätthålla
+                  stabilitet i elsystemet. Det involverar snabba och precisa
+                  åtgärder för att matcha elproduktion och konsumtion.
                 </p>
               </div>
               <div
@@ -168,11 +164,11 @@ export default function BatterySolutionsLanding() {
                 data-aos-delay="400"
               >
                 <h4 className="text-2xl font-semibold mb-4">
-                  Commercial Batteries
+                  Kommersiella Batterier
                 </h4>
                 <p className="opacity-90 mb-4">
-                  Commercial batteries mainly consist of cells and battery
-                  management systems (BMS).
+                  Kommersiella batterier består huvudsakligen av celler och
+                  batteristyrningssystem (BMS).
                 </p>
               </div>
             </div>
@@ -185,12 +181,12 @@ export default function BatterySolutionsLanding() {
               className="text-3xl font-bold mb-8 text-center text-gray-800"
               data-aos="fade-down"
             >
-              Role of Aggregators
+              Aggregatorernas Roll
             </h3>
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-8 md:mb-0" data-aos="zoom-in-right">
                 <Image
-                  src="/images/solar-panel.jpg"
+                  src="/images/2.jpg"
                   alt="Aggregator illustration"
                   width={600}
                   height={400}
@@ -203,15 +199,16 @@ export default function BatterySolutionsLanding() {
                 data-aos-delay="200"
               >
                 <p className="text-gray-600 mb-4">
-                  Aggregators play an important role in the frequency balancing
-                  market by gathering and coordinating various units.
+                  Aggregatorer spelar en viktig roll på
+                  frekvensbalanseringsmarknaden genom att samla och koordinera
+                  olika enheter.
                 </p>
                 <ul className="list-disc list-inside text-gray-600 mb-4">
                   {[
-                    "Create resource pools by connecting and controlling multiple smaller producers or consumers",
-                    "Use advanced technology for coordination and optimization of resources",
-                    "Actively participate in the frequency balancing market",
-                    "Introduce innovative business models for efficient energy use",
+                    "Skapar resurspooler genom att ansluta och styra flera mindre producenter eller konsumenter",
+                    "Använder avancerad teknik för koordinering och optimering av resurser",
+                    "Deltar aktivt på frekvensbalanseringsmarknaden",
+                    "Introducerar innovativa affärsmodeller för effektiv energianvändning",
                   ].map((item, index) => (
                     <li
                       key={index}
@@ -227,7 +224,7 @@ export default function BatterySolutionsLanding() {
                   data-aos="flip-up"
                   data-aos-delay="800"
                 >
-                  Learn more about aggregators
+                  Lär dig mer om aggregatorer
                 </Button>
               </div>
             </div>
@@ -238,37 +235,27 @@ export default function BatterySolutionsLanding() {
           className="py-20 bg-amber-50 relative overflow-hidden"
           id="contact"
         >
-          <div
-            className="absolute inset-0 opacity-20"
-            style={{
-              backgroundImage:
-                "radial-gradient(circle at 50% 50%, #fbbf24 1px, transparent 1px)",
-              backgroundSize: "30px 30px",
-            }}
-            data-aos="fade"
-            data-aos-duration="1500"
-          />
           <div className="container mx-auto px-4 text-center relative">
             <h3
               className="text-3xl font-bold mb-4 text-gray-800"
               data-aos="zoom-in"
             >
-              Take the step towards a sustainable energy future
+              Ta steget mot en hållbar energiframtid
             </h3>
             <p
               className="text-xl mb-8 text-gray-600 max-w-3xl mx-auto"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Contact us today to discuss how our battery solutions can optimize
-              your energy consumption.
+              Kontakta oss idag för att diskutera hur våra batterilösningar kan
+              optimera din energiförbrukning.
             </p>
             <Button
               className="rounded-full bg-primary text-white hover:bg-yellow-600 text-lg px-8 py-3 transform transition-transform hover:scale-110"
               data-aos="zoom-in-up"
               data-aos-delay="400"
             >
-              Contact Us Now
+              Kontakta Oss Nu
             </Button>
           </div>
         </section>

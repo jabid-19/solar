@@ -44,7 +44,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between px-8 py-4 text-base">
           <div>
             <Link href="/" aria-label="SolarTech">
-              <p className="text-3xl font-bold text-primary">SolarTech</p>
+              <p className="text-3xl font-bold text-yellow-800">SolarTech</p>
               {/* <Image
                 width={120}
                 height={28}
@@ -82,7 +82,7 @@ export const Navbar = () => {
                       : "text-[#1a212d]"
                   } text-base`}
                 >
-                  Solar Panels
+                  Solpaneler
                 </p>
               </Link>
             </li>
@@ -95,7 +95,7 @@ export const Navbar = () => {
                       : "text-[#1a212d]"
                   } text-base`}
                 >
-                  Batteries
+                  Batterier
                 </p>
               </Link>
             </li>
@@ -108,7 +108,7 @@ export const Navbar = () => {
                       : "text-[#1a212d]"
                   } text-base`}
                 >
-                  References
+                  Referenser
                 </p>
               </Link>
             </li>
@@ -126,7 +126,7 @@ export const Navbar = () => {
                     : "text-[#1a212d]"
                 } text-base`}
               >
-                <p>About SolarTech</p>
+                <p>Om SolarTech</p>
                 <ChevronDown className="w-4 h-4" />
               </div>
               {showDropdown && (
@@ -143,7 +143,7 @@ export const Navbar = () => {
                           : "text-[#1a212d]"
                       } text-base px-4 py-2 hover:bg-gray-100`}
                     >
-                      About Us
+                      Om oss
                     </p>
                   </Link>
                   <Link href="/contact">
@@ -154,7 +154,7 @@ export const Navbar = () => {
                           : "text-[#1a212d]"
                       } text-base px-4 py-2 hover:bg-gray-100`}
                     >
-                      Contact
+                      Kontakt
                     </p>
                   </Link>
                   {/* <Link href="/privacy-policy">
@@ -174,7 +174,7 @@ export const Navbar = () => {
           </ul>
           <Link href="/contact" className="hidden lg:block">
             <Button className="bg-black text-white hover:bg-gray-600 rounded-full px-5">
-              Contact
+              Kontakta oss
               <Phone className="h-4 w-4 ml-2 text-white" />
             </Button>
           </Link>
@@ -194,7 +194,7 @@ export const Navbar = () => {
                       : "text-[#1a212d]"
                   } text-base block py-1 hover:bg-[#fed27f] hover:px-2`}
                 >
-                  Solar Panels
+                  Solpaneler
                 </p>
               </Link>
             </li>
@@ -207,7 +207,7 @@ export const Navbar = () => {
                       : "text-[#1a212d]"
                   } text-base block py-1 hover:bg-[#fed27f] hover:px-2`}
                 >
-                  Batteries
+                  Batterier
                 </p>
               </Link>
             </li>
@@ -220,7 +220,7 @@ export const Navbar = () => {
                       : "text-[#1a212d]"
                   } text-base block py-1 hover:bg-[#fed27f] hover:px-2`}
                 >
-                  References
+                  Referenser
                 </p>
               </Link>
             </li>
@@ -233,7 +233,7 @@ export const Navbar = () => {
                       : "text-[#1a212d]"
                   } text-base block py-1 hover:bg-[#fed27f] hover:px-2`}
                 >
-                  About Us
+                  Om oss
                 </p>
               </Link>
             </li>
@@ -246,7 +246,7 @@ export const Navbar = () => {
                       : "text-[#1a212d]"
                   } text-base block py-1 hover:bg-[#fed27f] hover:px-2`}
                 >
-                  Contact
+                  Kontakta oss
                 </p>
               </Link>
             </li>
@@ -265,7 +265,7 @@ export const Navbar = () => {
             </li> */}
             <li>
               <Button className="bg-yellow-500 text-white hover:bg-yellow-600 rounded-full">
-                Contact
+                Kontakta oss
               </Button>
             </li>
           </ul>

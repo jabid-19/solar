@@ -1,9 +1,8 @@
 {
   "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/batteries/page": "app/batteries/page.js",
-  "/references/page": "app/references/page.js",
   "/solar-panels/page": "app/solar-panels/page.js",
-  "/about-us/page": "app/about-us/page.js"
+  "/references/page": "app/references/page.js",
+  "/about-us/page": "app/about-us/page.js",
+  "/contact/page": "app/contact/page.js"
 }
